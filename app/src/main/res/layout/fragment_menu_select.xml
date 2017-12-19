@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/transparent"
+              android:layout_marginTop="200dp"
+              android:gravity="center">
+    <Button
+            android:id="@+id/btnBatDau"
+            android:layout_centerInParent="true"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Bắt Đầu"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/ic_menu"/>
+    <Button
+            android:id="@+id/btnDiemCao"
+            android:layout_centerInParent="true"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Điểm Cao"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/ic_menu"
+            android:layout_below="@+id/btnBatDau"
+            android:layout_marginTop="5dp"/>
+    <Button
+            android:id="@+id/btnBinhChon"
+            android:layout_centerInParent="true"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Bình Chọn"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/ic_menu"
+            android:layout_below="@+id/btnDiemCao"
+            android:layout_marginTop="5dp"/>
+    <Button
+            android:id="@+id/btnGạmeKhac"
+            android:layout_centerInParent="true"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Game Khác"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/ic_menu"
+            android:layout_below="@+id/btnBinhChon"
+            android:layout_marginTop="5dp"/>
+</LinearLayout>

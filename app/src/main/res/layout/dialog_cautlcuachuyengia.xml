@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#000000"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:background="#330066"
+                  android:gravity="center_horizontal"
+                  android:layout_height="match_parent">
+        <FrameLayout android:layout_width="wrap_content"
+                     android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_margin="20dp"
+                          android:background="@drawable/atp__activity_player_layout_help_call_audience_background"
+                          android:orientation="horizontal"
+                          android:layout_height="350dp">
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_weight="1"
+                              android:layout_margin="20dp"
+                              android:orientation="vertical"
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="match_parent"
+                               android:scaleType="centerInside"
+                               android:layout_weight="2"
+                               android:id="@+id/ima_cg_choose"
+                               android:src="@drawable/atp__activity_player_layout_help_call_bacsi"
+                               android:layout_height="0dp"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:text="Bác sỹ"
+                              android:layout_marginTop="10dp"
+                              style="?android:attr/textAppearanceMedium"
+                              android:gravity="center"
+                              android:id="@+id/tv_tenCG"
+                              android:layout_gravity="center_horizontal"
+                              android:textColor="#ffffff"
+                              android:layout_weight="1"
+                              android:layout_height="0dp"/>
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_marginTop="30dp"
+                              android:id="@+id/tvDapAn"
+                              android:text="Theo tôi đáp án đúng là"
+                              style="?android:attr/textAppearanceLarge"
+                              android:gravity="center"
+                              android:layout_gravity="bottom"
+                              android:textColor="#CCFF33"
+                              android:layout_weight="1"
+                              android:layout_height="0dp"/>
+
+                    <Button android:layout_width="80dp"
+                            android:layout_marginTop="30dp"
+                            android:text="Đóng"
+                            android:id="@+id/btn_dongCG"
+                            android:background="@drawable/atp__dialog_confirm_background"
+                            style="?android:attr/textAppearanceLarge"
+                            android:gravity="center"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="#ffffff"
+                            android:layout_height="40dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView android:layout_width="200dp"
+                      android:textStyle="bold"
+                      style="?android:attr/textAppearanceMedium"
+                      android:gravity="center"
+                      android:layout_gravity="center_horizontal"
+                      android:text="Ý kiến khãn giả"
+                      android:background="@drawable/atp__button_select"
+                      android:layout_height="40dp"/>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
